@@ -1,0 +1,25 @@
+.dockerignore
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoint files
+*.ipynb_checkpoints/
+
+# Ignore environment and virtual environment files
+.env
+*.venv/
+venv/
+.envrc
+
+# Ignore dataset files (optional, if not needed in the image)
+*.csv  # Keep datasets out of the Docker image to reduce size
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
