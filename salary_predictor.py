@@ -9,7 +9,7 @@ def salary_predict(exp):
 
 st.title("Welcome to Salary Predictor")
 
-exp = st.slider("Select your experience (in years):", 0.0, 20.0, 1.0, step=0.1) 
+exp = st.slider("Select your experience (in years):", 0.0, 20.0, step=0.1) 
 
 if exp:
     st.write(f"Hey I know your experience is {exp} years, plz wait I m helping in predicting your future salary")

@@ -23,3 +23,9 @@ venv/
 # Ignore system files
 .DS_Store
 Thumbs.db
+
+# Ignore dataset files (if not needed in production)
+*.csv
+
+# Ignore Jupyter Notebook files (if not needed in production)
+*.ipynb
